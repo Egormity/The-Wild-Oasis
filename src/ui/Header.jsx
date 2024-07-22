@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <StyledHeader>
       <p style={{ color: 'var(--color-grey-500)' }}>
-        {isAdmin ? 'You have all the access 😊' : 'You have only visible access 😌'}
+        {isAdmin ? 'You have full access 😊' : 'You have read-only access 😌'}
       </p>
       <UserAvatar />
       <HeaderMenu />
