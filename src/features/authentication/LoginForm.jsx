@@ -10,8 +10,8 @@ import SpinnerMini from '../../ui/SpinnerMini';
 
 export default function LoginForm() {
   const userLoginData = JSON.parse(localStorage.getItem('user-login-data'));
-  const [email, setEmail] = useState(userLoginData.email || 'user@example.com');
-  const [password, setPassword] = useState(userLoginData.password || '12345678');
+  const [email, setEmail] = useState(userLoginData?.email || 'user@example.com');
+  const [password, setPassword] = useState(userLoginData?.password || '12345678');
 
   // const [email, setEmail] = useState('admin@example.com');
   // const [password, setPassword] = useState('1234567890-=');
