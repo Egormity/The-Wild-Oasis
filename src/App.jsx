@@ -28,8 +28,6 @@ const queryClient = new QueryClient({
 });
 
 export default function App() {
-  const hasLoggedIn = localStorage.getItem('sb-tqlpeeginxvocmwxjcur-auth-token');
-  
   return (
     <DarkModeProvider>
       <QueryClientProvider client={queryClient}>
@@ -39,7 +37,7 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             {/* INDEX ROUTE */}
-            <Route index element={<Navigate replace to={!hasLoggedIn ? 'login' : 'dashboard'} />} />
+            <Route index element={<Navigate replace to={'login'} />} />
 
             {/* APP LOYAUT */}
             <Route
