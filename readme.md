@@ -69,7 +69,7 @@ The Wild Oasis
 
 🤌 The Wild Oasis brings together simplicity and functionality, allowing users to manipulate table-based data with pleasure.
 
-### Here you can see the more full site overview: (see [The Wild Oasis](https://egormity-pizza-time.vercel.app))
+### Here you can see the more full site overview: (see [The Wild Oasis](https://egormity-wild-oasis.vercel.app))
 
 <img src="https://github.com/Egormity/the-wild-oasis/blob/master/assets/Preview-1.jpg?raw=true"/>
 
