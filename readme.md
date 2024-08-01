@@ -1,4 +1,4 @@
-# The Wild Oasis - The bsest admin dashboar React web-app you can find!
+# The Wild Oasis - The best admin dashboard React web-app you can find!
 
 > #### _The final project from Jonas Schmedtmann's Ultimate React course_
 
